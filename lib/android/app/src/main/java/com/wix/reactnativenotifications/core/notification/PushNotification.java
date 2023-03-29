@@ -210,7 +210,7 @@ public class PushNotification implements IPushNotification {
         try {
             response.putBundle("notification", mNotificationProps.asBundle());
         } catch (NullPointerException e) {
-            Log.e(LOGTAG, "notifyOpenedToJS: Null pointer exception");
+            // Log.e(LOGTAG, "notifyOpenedToJS: Null pointer exception");
         }
     }
 
